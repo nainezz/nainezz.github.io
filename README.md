@@ -7,7 +7,6 @@ Personal website of **Nainezz**, a software engineer in Nairobi, Kenya, who also
 ## What's on the site
 
 - **Phones for sale:** a filterable list with storage, grade and battery health. Each phone has a WhatsApp order button.
-- **Portfolio:** my software projects, with links to the live demos and the code.
 - **About and contact:** WhatsApp, Instagram and GitHub links.
 
 ## Editing content
@@ -16,7 +15,7 @@ Everything lives in one file, `index.html`. The site's content is defined near t
 
 - `SITE`: name, WhatsApp number, Instagram, location
 - `PRODUCTS`: phones for sale (model, storage, grade, battery, origin, price)
-- `PROJECTS`: portfolio projects
+- `PROJECTS`: portfolio projects (not shown on the page at the moment)
 - `SKILLS`: skills list
 
 Built with plain HTML, CSS and JavaScript and hosted on GitHub Pages.

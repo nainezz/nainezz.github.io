@@ -157,7 +157,6 @@
     <a href="#top" class="logo" aria-label="nainezz home"><span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>nainezz</a>
     <div class="links">
       <a href="#shop">Phones</a>
-      <a href="#work">Projects</a>
       <a href="#about">About</a>
       <a href="#contact" class="cta">Contact</a>
     </div>
@@ -169,10 +168,9 @@
     <div>
       <div class="pill">📍 Nairobi · <b>Ex-UK & USA phones</b></div>
       <h1>Quality phones.<br><em>Clean code.</em></h1>
-      <p>I'm Nainezz — I sell ex-UK and ex-USA smartphones in Kenya, and I build software. Browse the latest stock or check out my engineering work.</p>
+      <p>I'm Nainezz — I sell ex-UK and ex-USA smartphones in Kenya, and I build software. Browse the latest stock and order straight on WhatsApp.</p>
       <div class="btns">
         <a href="#shop" class="btn primary">Shop phones →</a>
-        <a href="#work" class="btn">View my projects</a>
       </div>
     </div>
     <div class="phones-hero" aria-hidden="true">
@@ -200,17 +198,6 @@
     <div class="filters" id="filters"></div>
     <div class="grid" id="products"></div>
     <p class="note">Prices and availability change — message me to confirm before paying.</p>
-  </div>
-</section>
-
-<section id="work">
-  <div class="wrap">
-    <div class="head">
-      <div><div class="kicker">// portfolio</div><h2>Software projects</h2></div>
-      <p>Web and mobile apps I've built — from JavaScript tools to cross-platform Flutter apps.</p>
-    </div>
-    <div class="grid proj" id="projects"></div>
-    <div style="margin-top:28px"><a class="btn" id="ghAll" href="#" target="_blank" rel="noopener">See all my work on GitHub →</a></div>
   </div>
 </section>
 
@@ -321,7 +308,7 @@ $('phoneTxt').textContent = SITE.phoneDisplay;
 $('igTxt').textContent = '@' + SITE.instagram;
 $('locTxt').textContent = SITE.location;
 $('yr').textContent = new Date().getFullYear();
-$('ghAll').href = $('ghBtn').href = `https://github.com/${GITHUB}`;
+$('ghBtn').href = `https://github.com/${GITHUB}`;
 $('skills').innerHTML = SKILLS.map(s => `<span>${s}</span>`).join('');
 
 let active = 'All';
@@ -369,7 +356,7 @@ function renderProjects(){
       </div>
     </div>`).join('');
 }
-renderFilters(); renderProducts(); renderProjects();
+renderFilters(); renderProducts();
 </script>
 </body>
 </html>
