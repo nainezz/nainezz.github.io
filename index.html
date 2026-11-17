@@ -132,12 +132,6 @@
   .details{margin-top:28px;display:flex;gap:28px;justify-content:center;flex-wrap:wrap;color:var(--muted);font-size:.92rem;position:relative}
   .details b{color:var(--ink);font-weight:500}
 
-  .checker{display:grid;grid-template-columns:1.4fr auto auto;gap:28px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:32px 36px}
-  .checker h2{font-size:clamp(1.5rem,3vw,2rem);margin-bottom:8px}
-  .checker p{color:var(--muted);max-width:520px}
-  .checker-stats{display:flex;gap:22px}
-  .checker-stats b{display:block;font-family:"Space Grotesk";font-size:1.8rem;color:var(--accent)}
-  .checker-stats span{color:var(--muted);font-size:.8rem}
   footer{padding:34px 0 44px;color:var(--muted);font-size:.85rem}
   footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 
@@ -153,7 +147,6 @@
     .trust div:nth-child(n+3){border-top:1px solid var(--line)}
     .links a:not(.cta){display:none}
     .contact{padding:44px 22px}
-    .checker{grid-template-columns:1fr;padding:26px 22px}
   }
 </style>
 </head>
@@ -164,7 +157,6 @@
     <a href="#top" class="logo" aria-label="nainezz home"><span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>nainezz</a>
     <div class="links">
       <a href="#shop">Phones</a>
-      <a href="#checker">Price checker</a>
       <a href="#about">About</a>
       <a href="#contact" class="cta">Contact</a>
     </div>
@@ -206,24 +198,6 @@
     <div class="filters" id="filters"></div>
     <div class="grid" id="products"></div>
     <p class="note">Prices and availability change — message me to confirm before paying.</p>
-  </div>
-</section>
-
-<section id="checker" style="padding-top:0">
-  <div class="wrap">
-    <div class="checker">
-      <div>
-        <div class="kicker">// free tool</div>
-        <h2>ex-UK or ex-USA? Compare before you buy.</h2>
-        <p>Use my Phone Price Checker to compare ex-UK and ex-USA prices by model, storage and grade, or see every phone that fits your budget.</p>
-      </div>
-      <div class="checker-stats">
-        <div><b>8</b><span>brands</span></div>
-        <div><b>48</b><span>models</span></div>
-        <div><b>3</b><span>grades</span></div>
-      </div>
-      <a class="btn primary" href="https://nainezz.github.io/phone-price-checker/" target="_blank" rel="noopener">Open the Price Checker →</a>
-    </div>
   </div>
 </section>
 
